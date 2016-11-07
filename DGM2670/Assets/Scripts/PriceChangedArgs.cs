@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PriceChangedArgs : EventArgs {
+public class PriceChangedArgs /*: EventArgs*/ {
 
     public readonly decimal LastPrice, NewPrice;
 

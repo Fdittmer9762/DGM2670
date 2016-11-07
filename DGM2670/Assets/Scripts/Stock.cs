@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Stock {
-
+/*
     string symbol; decimal price;
 
     public Stock(string symbol) { this.symbol = symbol; } //not sure what there doing here, they are creating a symbol that is within and then setting it to itself; or so it seems
@@ -22,9 +22,9 @@ public class Stock {
             OnPriceChanged(new PriceChangedArgs(price, value));
             /*if (Pricechanged != null){
                 Pricechanged(price, value);
-            }*/
+            //}
 
             price = value;
         }
-    }
+    }*/
 }

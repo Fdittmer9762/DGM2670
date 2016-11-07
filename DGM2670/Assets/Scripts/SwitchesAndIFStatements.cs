@@ -42,9 +42,9 @@ public class SwitchesAndIFStatements : MonoBehaviour {
             case false:
                 print("its wrong");
                 break;
-            case null:
+            /*case null:
                 print("something's wrong");
-                break;
+                break;*/
         }
         return things;
     }
